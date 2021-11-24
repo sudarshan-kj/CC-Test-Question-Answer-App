@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.label {
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+.input {
+  padding: 2rem;
+  font-size: 3rem;
+  border-radius: 8px;
+}

@@ -1,0 +1,31 @@
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgb(199, 199, 199);
+  font-size: 2rem;
+}
+
+.submitButton {
+  margin-top: 1rem;
+  background-color: black;
+  border: none;
+  padding: 1rem 2rem;
+  color: gainsboro;
+  text-transform: uppercase;
+  border-radius: 1rem;
+}
+
+.submitButton:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: rgb(180, 180, 180);
+}
+
+.disabled:hover {
+  cursor: not-allowed;
+}
+
+.tryAgain:hover {
+  cursor: pointer;
+}

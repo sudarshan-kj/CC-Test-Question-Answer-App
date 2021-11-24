@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: gainsboro;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  display: block;
+  text-decoration: none;
+  font-size: large;
+  color: black;
+  box-shadow: 0 12px 0px 2px gray;
+}
+
+.appContainer {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
