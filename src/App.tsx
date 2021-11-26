@@ -1,19 +1,22 @@
 import { Routes, Route, Link } from "react-router-dom";
-import CountryDetails from "./pages/CountryDetails";
 import NotFound from "./pages/NotFound";
 import styles from "./App.module.css";
-import CountryInputForm from "./pages/CountryInputForm";
+import CandidateInputForm from "./pages/CandidateInputForm";
+import QuestionPage from "./pages/QuestionPage";
+import ResultsPage from "./pages/ResultsPage";
 
 function App() {
   return (
     <div>
       <Link className={styles.header} to="/">
-        Country Weather App
+        Question Answer App
       </Link>
+
       <div className={styles.appContainer}>
         <Routes>
-          <Route path="/" element={<CountryInputForm />} />
-          <Route path="countryDetails" element={<CountryDetails />} />
+          <Route path="/" element={<CandidateInputForm />} />
+          <Route path="question/:id" element={<QuestionPage />} />
+          <Route path="results" element={<ResultsPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

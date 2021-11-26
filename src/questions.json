@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the distance from Moon to Earth? ( in km )",
+      "answer": "384400"
+    },
+    {
+      "id": 2,
+      "question": "The five fundamental elemnents in nature are Earth, Fire, Water, Space, and  ________",
+      "answer": "air"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following statements is true about the following hook declaration: useState(2)",
+      "answer": {
+        "option1": true,
+        "option2": true,
+        "option3": false,
+        "option4": false
+      }
+    },
+    {
+      "id": 4,
+      "question": "Props are mandatory in every React component. Is this statement true?",
+      "answer": "false"
+    },
+    {
+      "id": 5,
+      "question": "The fundamental five elemnents in nature are Earth, Fire, Water, Space, and ",
+      "answer": "air"
+    }
+  ]
+}

@@ -4,21 +4,22 @@
   right: 0;
   left: 0;
   padding: 2rem;
-  background-color: gainsboro;
+  background-color: #001e3c;
   font-weight: bold;
   margin-bottom: 2rem;
   display: block;
   text-decoration: none;
   font-size: large;
-  color: black;
-  box-shadow: 0 12px 0px 2px gray;
+  color: whitesmoke;
+  box-shadow: 0 12px 0px 2px #1b5288;
 }
 
 .appContainer {
-  max-width: 650px;
+  max-width: 660px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  padding: 4rem 0;
+  min-height: 70vh;
 }
